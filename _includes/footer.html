@@ -1,3 +1,5 @@
-<script type="module">
-    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@11.6.0/+esm'
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script>
+    mermaid.initialize({ startOnLoad: true });
+    window.mermaid.init(undefined, document.querySelectorAll('.language-mermaid'));
 </script>
